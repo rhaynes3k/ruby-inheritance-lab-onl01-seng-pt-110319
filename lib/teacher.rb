@@ -5,6 +5,5 @@ class Teacher < User
 
   def teach
     str = KNOWLEDGE.sample
-    str
   end
 end
